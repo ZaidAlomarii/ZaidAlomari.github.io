@@ -170,12 +170,13 @@ nav {
   50%       { opacity: 0.4; transform: scale(0.8); }
 }
 
+/* FIX: Refined typography to prevent "stretchy" appearance */
 h1 {
   font-family: 'Syne', sans-serif;
   font-size: clamp(2.8rem, 5.5vw, 5.5rem);
   font-weight: 800;
-  line-height: 1;
-  letter-spacing: -3px;
+  line-height: 1.1 !important;    /* Added spacing between lines */
+  letter-spacing: 0px !important;  /* Reset to 0 to prevent character squishing */
   margin-bottom: 1.5rem;
 }
 
@@ -185,7 +186,8 @@ h1 {
 
 .name-line2 {
   display: block;
-  color: rgba(245, 240, 232, 0.22);
+  color: rgba(245, 240, 232, 0.35); /* Improved contrast */
+  letter-spacing: -0.5px !important;
 }
 
 .hero-desc {
@@ -801,7 +803,8 @@ footer span {
 @media (max-width: 480px) {
   h1 {
     font-size: 2.4rem;
-    letter-spacing: -2px;
+    letter-spacing: 0px !important; /* Forces clarity on mobile */
+    line-height: 1.2 !important;
   }
 
   .about-cards {
