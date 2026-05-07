@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Zaid Alomari — CS Student & ML Engineer</title>
+  <meta name="description" content="Portfolio of Zaid Alomari, Computer Science student specializing in Machine Learning and AI systems." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Syne:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav id="navbar">
+    <div class="nav-logo">Z<span>.</span>Alomari</div>
+    <ul class="nav-links">
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button class="nav-toggle" aria-label="Toggle menu">☰</button>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="hero-bg">
+      <div class="blob blob1"></div>
+      <div class="blob blob2"></div>
+      <div class="blob blob3"></div>
+    </div>
+    <div class="hero-content">
+      <div class="hero-tag">
+        <span class="hero-tag-dot"></span>
+        Available for opportunities
+      </div>
+      <h1>
+        Hey, I'm<br />
+        <span class="name-accent">Zaid Alomari</span>
+        <span class="name-line2">— CS Student</span>
+      </h1>
+      <p class="hero-desc">
+        A dedicated computer science student passionate about machine learning,
+        AI systems, and building software that solves real problems. Based in Jordan 🇯🇴
+      </p>
+      <div class="hero-ctas">
+        <a href="#projects" class="btn-primary">View My Work</a>
+        <a href="#contact" class="btn-outline">Contact Me</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat">
+          <div class="stat-num">6<span>+</span></div>
+          <div class="stat-label">Projects Built</div>
+        </div>
+        <div class="stat">
+          <div class="stat-num">90<span>%+</span></div>
+          <div class="stat-label">Detection Accuracy</div>
+        </div>
+        <div class="stat">
+          <div class="stat-num">3.36<span>/4</span></div>
+          <div class="stat-label">GPA at JUST</div>
+        </div>
+      </div>
+    </div>
+    <div class="hero-photo-wrap">
+      <div class="hero-photo-outer">
+        <div class="hero-photo-card">
+          <img src="photo.jpg" alt="Zaid Alomari" />
+        </div>
+        <div class="photo-badge">💻 CS @ JUST</div>
+        <div class="photo-dot dot-yellow"></div>
+        <div class="photo-dot dot-teal"></div>
+        <div class="photo-dot dot-pink"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="projects-section reveal" id="projects">
+    <div class="section-label">Selected Work</div>
+    <h2 class="section-title">Projects</h2>
+    <p class="section-sub">Hands-on builds in machine learning, mobile design, and AI systems.</p>
+    <div class="projects-grid">
+
+      <div class="project-card">
+        <div class="project-icon pi-orange">🎭</div>
+        <h3 class="project-title">Face Recognition & Mask Detection</h3>
+        <p class="project-desc">Real-time system classifying correct mask usage, no mask, or improperly worn mask using YOLO-based detection. Built during ML internship at Leading Point Software.</p>
+        <div class="project-tags">
+          <span class="tag">Python</span>
+          <span class="tag">YOLO</span>
+          <span class="tag">OpenCV</span>
+          <span class="tag">TensorFlow</span>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-icon pi-teal">💰</div>
+        <h3 class="project-title">Fake Currency Detection</h3>
+        <p class="project-desc">Detects counterfeit currency using grayscale conversion, Gaussian blur, edge detection, and template matching. Achieved over 90% accuracy across multiple currencies.</p>
+        <div class="project-tags">
+          <span class="tag">Python</span>
+          <span class="tag">OpenCV</span>
+          <span class="tag">Image Processing</span>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-icon pi-pink">🎓</div>
+        <h3 class="project-title">Exam Cheating Detection</h3>
+        <p class="project-desc">NLP-based system to identify suspicious answer similarities in exam responses using text similarity analysis and semantic comparison techniques.</p>
+        <div class="project-tags">
+          <span class="tag">Python</span>
+          <span class="tag">NLP</span>
+          <span class="tag">Text Similarity</span>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-icon pi-orange">🛒</div>
+        <h3 class="project-title">Hypermarket App Prototype</h3>
+        <p class="project-desc">Designed a user-friendly mobile app prototype for a hypermarket with interactive wireframes focused on smooth, intuitive user experience.</p>
+        <div class="project-tags">
+          <span class="tag">UI/UX</span>
+          <span class="tag">Wireframing</span>
+          <span class="tag">Mobile Design</span>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-icon pi-teal">🤖</div>
+        <h3 class="project-title">RAG LoL Patch Notes Assistant</h3>
+        <p class="project-desc">RAG-based chatbot that retrieves champion-specific updates from League of Legends patch notes using document embedding and vector search.</p>
+        <div class="project-tags">
+          <span class="tag">Python</span>
+          <span class="tag">RAG</span>
+          <span class="tag">Vector Search</span>
+          <span class="tag">LLM</span>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-icon pi-pink">📊</div>
+        <h3 class="project-title">ML Data Analysis</h3>
+        <p class="project-desc">Applied regression and clustering models to large datasets, conducted preprocessing and model optimization, visualized actionable insights through charts.</p>
+        <div class="project-tags">
+          <span class="tag">Python</span>
+          <span class="tag">Scikit-learn</span>
+          <span class="tag">Data Viz</span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about-section reveal" id="about">
+    <div class="section-label">Who I Am</div>
+    <h2 class="section-title">About Me</h2>
+    <div class="about-grid">
+      <div class="about-text">
+        <p>I'm Zaid Alomari, a Computer Science student at Jordan University of Science and Technology (graduating 2026) with a GPA of 3.36/4.0.</p>
+        <p>I'm passionate about machine learning, AI systems, and software that makes a real-world impact. I've built detection systems, NLP tools, and RAG pipelines — and I love diving deep into hard problems.</p>
+        <p>Beyond code, I've worked in event photography at Hollywood Pictures — communicating with clients and handling direct sales — so I bring both technical depth and people skills to the table.</p>
+        <div class="lang-section">
+          <div class="lang-label">Languages</div>
+          <div class="lang-pills">
+            <span class="lang-pill native">Arabic — Native</span>
+            <span class="lang-pill fluent">English — Fluent</span>
+          </div>
+        </div>
+      </div>
+      <div class="about-cards">
+        <div class="about-card">
+          <div class="about-card-num">6+</div>
+          <div class="about-card-label">Projects Completed</div>
+        </div>
+        <div class="about-card">
+          <div class="about-card-num">90%+</div>
+          <div class="about-card-label">Best Model Accuracy</div>
+        </div>
+        <div class="about-card">
+          <div class="about-card-num">JUST</div>
+          <div class="about-card-label">BSc Computer Science</div>
+        </div>
+        <div class="about-card">
+          <div class="about-card-num">2025</div>
+          <div class="about-card-label">ML Internship</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="skills-section reveal" id="skills">
+    <div class="section-label">What I Know</div>
+    <h2 class="section-title">Technical Skills</h2>
+    <p class="section-sub">Core languages, frameworks, and tools I work with.</p>
+    <div class="skills-columns">
+
+      <div class="skill-group">
+        <div class="skill-group-title">
+          <span class="dot dot-orange"></span>Core Skills
+        </div>
+        <div class="skill-item"><span class="skill-name">Python</span><div class="skill-bar-wrap"><div class="skill-bar" style="width:90%"></div></div></div>
+        <div class="skill-item"><span class="skill-name">Machine Learning</span><div class="skill-bar-wrap"><div class="skill-bar" style="width:85%"></div></div></div>
+        <div class="skill-item"><span class="skill-name">Computer Vision</span><div class="skill-bar-wrap"><div class="skill-bar" style="width:80%"></div></div></div>
+        <div class="skill-item"><span class="skill-name">NLP</span><div class="skill-bar-wrap"><div class="skill-bar" style="width:75%"></div></div></div>
+        <div class="skill-item"><span class="skill-name">C++</span><div class="skill-bar-wrap"><div class="skill-bar" style="width:70%"></div></div></div>
+      </div>
+
+      <div class="skill-group">
+        <div class="skill-group-title">
+          <span class="dot dot-teal"></span>Tools & Software
+        </div>
+        <div class="skill-item"><span class="skill-name">TensorFlow</span><div class="skill-bar-wrap"><div class="skill-bar" style="width:80%"></div></div></div>
+        <div class="skill-item"><span class="skill-name">OpenCV</span><div class="skill-bar-wrap"><div class="skill-bar" style="width:85%"></div></div></div>
+        <div class="skill-item"><span class="skill-name">YOLO</span><div class="skill-bar-wrap"><div class="skill-bar" style="width:80%"></div></div></div>
+        <div class="skill-item"><span class="skill-name">SQL / PLSQL</span><div class="skill-bar-wrap"><div class="skill-bar" style="width:70%"></div></div></div>
+        <div class="skill-item"><span class="skill-name">Linux</span><div class="skill-bar-wrap"><div class="skill-bar" style="width:75%"></div></div></div>
+      </div>
+
+      <div class="skill-group">
+        <div class="skill-group-title">
+          <span class="dot dot-blue"></span>Specializations
+        </div>
+        <div class="skill-item"><span class="skill-name">Object Detection</span><div class="skill-bar-wrap"><div class="skill-bar" style="width:85%"></div></div></div>
+        <div class="skill-item"><span class="skill-name">RAG Systems</span><div class="skill-bar-wrap"><div class="skill-bar" style="width:75%"></div></div></div>
+        <div class="skill-item"><span class="skill-name">HTML / CSS</span><div class="skill-bar-wrap"><div class="skill-bar" style="width:65%"></div></div></div>
+        <div class="skill-item"><span class="skill-name">Data Analysis</span><div class="skill-bar-wrap"><div class="skill-bar" style="width:80%"></div></div></div>
+        <div class="skill-item"><span class="skill-name">UI Prototyping</span><div class="skill-bar-wrap"><div class="skill-bar" style="width:60%"></div></div></div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact-section reveal" id="contact">
+    <div class="contact-inner">
+      <div class="section-label">Get In Touch</div>
+      <h2 class="section-title">Let's Connect</h2>
+      <p class="section-sub">Whether you have an opportunity, a project, or just want to say hi — my inbox is open.</p>
+      <div class="contact-links">
+
+        <a href="mailto:zaidalomarial@gmail.com" class="contact-link">
+          <div class="contact-icon ci-email">✉️</div>
+          <div class="contact-link-text">
+            <div class="contact-link-label">Email</div>
+            <div class="contact-link-value">zaidalomarial@gmail.com</div>
+          </div>
+          <div class="contact-arrow">→</div>
+        </a>
+
+        <a href="https://www.linkedin.com/in/zaid-alomari-164111212/" target="_blank" rel="noopener noreferrer" class="contact-link">
+          <div class="contact-icon ci-linkedin">💼</div>
+          <div class="contact-link-text">
+            <div class="contact-link-label">LinkedIn</div>
+            <div class="contact-link-value">linkedin.com/in/zaid-alomari-164111212</div>
+          </div>
+          <div class="contact-arrow">→</div>
+        </a>
+
+        <a href="https://github.com/ZaidAlomarii" target="_blank" rel="noopener noreferrer" class="contact-link">
+          <div class="contact-icon ci-github">🐙</div>
+          <div class="contact-link-text">
+            <div class="contact-link-label">GitHub</div>
+            <div class="contact-link-value">github.com/ZaidAlomarii</div>
+          </div>
+          <div class="contact-arrow">→</div>
+        </a>
+
+        <a href="tel:+962791413950" class="contact-link">
+          <div class="contact-icon ci-phone">📞</div>
+          <div class="contact-link-text">
+            <div class="contact-link-label">Phone</div>
+            <div class="contact-link-value">+962 791 413 950</div>
+          </div>
+          <div class="contact-arrow">→</div>
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div>© 2025 <span>Zaid Alomari</span>. All Rights Reserved.</div>
+    <div>Built with ❤️ in Jordan</div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
